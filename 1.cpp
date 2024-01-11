@@ -57,14 +57,7 @@ Status num_root(BiTree T){
 }
 
 int main(){
-	int n,i=0;
-	BiTree T;
-	InitBiTree(T);
-	scanf("%d",&n);
-	getchar();
-	CreateBiTree(T);
-	i=num_root(T);
-	printf("%d",n-i);
+	
 	return 0;
 }/*7
 A B C D E 0 0 0 0 F G #*/
